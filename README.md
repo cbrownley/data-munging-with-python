@@ -5,8 +5,8 @@ This repository contains all of the Python scripts, input files, and output file
 
 To Download
 ========================
-On a Mac computer:
-1. Open a Terminal window
+On a Mac computer: <br>
+1. Open a Terminal window <br>
 2. Navigate to the folder where you want to download data-munging-with-python
       For example, to download data-munging-with-python into your Documents folder:
           First, type the following and then hit Enter: cd
