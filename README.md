@@ -12,7 +12,7 @@ On a Mac computer: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First, type the following and then hit Enter: cd <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Second, type the following and then hit Enter: cd Documents/ <br>
 3. Finally, to download data-munging-with-python, type the following and then hit Enter: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;git clone <a href="https://github.com/cbrownley/data-munging-with-python.git" style="text-decoration : none; color : #000000;">git clone href="https://github.com/cbrownley/data-munging-with-python.git</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;git clone <a https://github.com/cbrownley/data-munging-with-python.git style="text-decoration : none; color : #000000;"</a> <br>
 
 On a Windows computer: <br>
 1. Open a web browser and go to: https://github.com/cbrownley/data-munging-with-python <br>
