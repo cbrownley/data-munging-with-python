@@ -3,7 +3,7 @@ data-munging-with-python
 
 This repository contains all of the Python scripts, input files, and output files associated with the training class, Data Munging with Python. <br>
 
-download
+to download
 ========================
 On a Mac computer: <br>
 1. Open a Terminal window <br>
@@ -12,7 +12,7 @@ On a Mac computer: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First, type the following and then hit Enter: cd <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Second, type the following and then hit Enter: cd Documents/ <br>
 3. Finally, to download data-munging-with-python, type the following and then hit Enter: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/cbrownley/data-munging-with-python.git <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<pre>git clone https://github.com/cbrownley/data-munging-with-python.git</pre> <br>
 
 On a Windows computer: <br>
 1. Open a web browser and go to: https://github.com/cbrownley/data-munging-with-python <br>
