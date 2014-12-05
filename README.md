@@ -5,15 +5,6 @@ This repository contains all of the Python scripts, input files, and output file
 
 to download
 ========================
-<html>
-<head>
-<style type="text/css">
-<!--
-a { text-decoration : none; color : #000; }
--->
-</style>
-</head>
-<body>
 On a Mac computer: <br>
 1. Open a Terminal window <br>
 2. Navigate to the folder where you want to download data-munging-with-python <br>
@@ -30,5 +21,3 @@ On a Windows computer: <br>
 4. Click 'Extract all' <br>
 5. Edit the path to save the folder where you want to save it <br>
 6. Click 'Extract' <br>
-</body>
-</html>
