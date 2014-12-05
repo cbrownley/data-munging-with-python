@@ -8,11 +8,11 @@ download
 On a Mac computer: <br>
 1. Open a Terminal window <br>
 2. Navigate to the folder where you want to download data-munging-with-python <br>
-      For example, to download data-munging-with-python into your Documents folder: <br>
-          First, type the following and then hit Enter: cd <br>
-          Second, type the following and then hit Enter: cd Documents/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;For example, to download data-munging-with-python into your Documents folder: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First, type the following and then hit Enter: cd <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Second, type the following and then hit Enter: cd Documents/ <br>
 3. Finally, to download data-munging-with-python, type the following and then hit Enter: <br>
-      git clone https://github.com/cbrownley/data-munging-with-python.git <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/cbrownley/data-munging-with-python.git <br>
 
 On a Windows computer: <br>
 1. Open a web browser and go to: https://github.com/cbrownley/data-munging-with-python <br>
