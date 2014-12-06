@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 """
 Copyright 2014 Clinton W. Brownley
 Available at https://github.com/cbrownley
