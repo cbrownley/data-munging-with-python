@@ -8,6 +8,7 @@ from math import *
 from string import *
 import re
 from datetime import date, time, datetime, timedelta
+from operator import itemgetter
 import sys
 import glob
 import os
@@ -303,6 +304,17 @@ list_copy.sort()
 print list_copy
 print unordered_list
 
+# Use sorted() to sort a collection of lists by a position in the lists
+my_lists = [[1,2,3,4], [4,3,2,1], [2,4,1,3]]
+my_lists_sorted_by_index_3 = sorted(my_lists, key=lambda index_value: index_value[3])
+print my_lists_sorted_by_index_3
+
+# Use itemgetter() to sort a collection of lists by two index positions
+my_lists = [[123,2,2,444], [22,6,6,444], [354,4,4,678], 
+       [236,5,5,678], [578,1,1,290], [461,1,1,290]]
+my_lists_sorted_by_index_3_and_0 = sorted(my_lists, key=itemgetter(3,0))
+print my_lists_sorted_by_index_3_and_0
+
 # TUPLES
 # Use parentheses to create a tuple
 my_tuple = ('x', 'y', 'z')
@@ -412,6 +424,25 @@ print ""
 
 for key, value in another_dict.items():
     print str(key) + " " + str(value)
+
+# compact for loops
+# list, set, and dictionary comprehensions
+# Select specific rows using a list comprehension
+my_data = [[1,2,3], [4,5,6], [7,8,9]]
+rows_to_keep = [row for row in my_data if row[2] > 5]
+print rows_to_keep
+
+# Select a set of unique tuples in a list using a set comprehension
+my_data = [(1,2,3), (4,5,6), (7,8,9), (7,8,9)]
+set_of_tuples1 = {x for x in my_data}
+print set_of_tuples1
+set_of_tuples2 = set(my_data)
+print set_of_tuples2
+
+# Select specific key-value pairs using a dictionary comprehension
+my_dictionary = {'customer1': 7, 'customer2': 9, 'customer3': 11}
+my_results = {key : value for key, value in my_dictionary.items() if value > 10}
+print my_results
 
 # while loop
 x = 0
