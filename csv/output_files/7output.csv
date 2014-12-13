@@ -1,7 +1,13 @@
-Supplier Name,Invoice Number,Part Number,Cost,Purchase Date
-Supplier X,001-1001,2341,$500.00,1/20/14
-Supplier X,001-1001,2341,$500.00,1/20/14
-Supplier X,001-1001,5467,$750.00,1/20/14
-Supplier X,001-1001,5467,$750.00,1/20/14
-Supplier Y,50-9501,7009,$250.00,1/30/14
-Supplier Y,50-9501,7009,$250.00,1/30/14
+Supplier Name,Cost
+Supplier X,$500.00
+Supplier X,$500.00
+Supplier X,$750.00
+Supplier X,$750.00
+Supplier Y,$250.00
+Supplier Y,$250.00
+Supplier Y,$125.00
+Supplier Y,$125.00
+Supplier Z,$615.00
+Supplier Z,$615.00
+Supplier Z,$615.00
+Supplier Z,$615.00

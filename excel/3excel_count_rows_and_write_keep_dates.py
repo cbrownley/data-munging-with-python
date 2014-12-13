@@ -10,16 +10,16 @@ from datetime import date
 from xlrd import open_workbook, xldate_as_tuple
 
 input_file = sys.argv[1]
-output_file = sys.argv[2]
+#output_file = sys.argv[2]
 
 row_counter = 0
 with open_workbook(input_file) as workbook:
-	with open(output_file, 'wb') as csv_out_file:
-		filewriter = csv.writer(csv_out_file, delimiter=',')
+	#with open(output_file, 'wb') as csv_out_file:
+		#filewriter = csv.writer(csv_out_file, delimiter=',')
 		worksheet = workbook.sheet_by_name('january_2013')
 		header = worksheet.row_values(0)
 		print header
-		filewriter.writerow(header)
+		#filewriter.writerow(header)
 		for row_index in range(1, worksheet.nrows):
 			row_list_output = []
 			for col_index in range(worksheet.ncols):
@@ -31,6 +31,6 @@ with open_workbook(input_file) as workbook:
 					cell = date(*cell[0:3]).strftime('%m/%d/%Y')
 					row_list_output.append(cell)
 			print row_list_output
-			filewriter.writerow(row_list_output)
+			#filewriter.writerow(row_list_output)
 			row_counter += 1
 print 'Number of rows: %d' % (row_counter)
