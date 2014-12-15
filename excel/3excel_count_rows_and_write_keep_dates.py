@@ -33,4 +33,4 @@ with open_workbook(input_file) as workbook:
 			print row_list_output
 			#filewriter.writerow(row_list_output)
 			row_counter += 1
-print 'Number of rows: %d' % (row_counter)
+print 'Number of rows: %d' % (row_counter+1)
