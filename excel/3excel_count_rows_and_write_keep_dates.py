@@ -12,7 +12,6 @@ from xlrd import open_workbook, xldate_as_tuple
 input_file = sys.argv[1]
 #output_file = sys.argv[2]
 
-row_counter = 0
 with open_workbook(input_file) as workbook:
 	#with open(output_file, 'wb') as csv_out_file:
 		#filewriter = csv.writer(csv_out_file, delimiter=',')
@@ -32,5 +31,4 @@ with open_workbook(input_file) as workbook:
 					row_list_output.append(cell)
 			print row_list_output
 			#filewriter.writerow(row_list_output)
-			row_counter += 1
-print 'Number of rows: %d' % (row_counter+1)
+		print 'Number of rows: %d' % (worksheet.nrows)
