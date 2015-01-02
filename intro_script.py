@@ -173,14 +173,14 @@ for input_file in glob.glob(os.path.join(input_path,'*.txt')):
         print row.strip()
 
 # Write to a CSV file
-my_numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-max_index = len(my_numbers)
+my_list = [65, 'tiger', 32.05, 'facebook', 41, 'happy new year', 3.14159, '2*pi*r']
+max_index = len(my_list)
 output_file = "output.csv"
 filewriter = open(output_file, 'w')
-for index_value in range(len(my_numbers)):
+for index_value in range(len(my_list)):
     if index_value < (max_index-1):
-        filewriter.write(str(my_numbers[index_value])+',')
+        filewriter.write(str(my_list[index_value])+',')
     else:
-        filewriter.write(str(my_numbers[index_value])+'\n')
+        filewriter.write(str(my_list[index_value])+'\n')
 filewriter.close()
 print "Output #40: Output written to file " + str(output_file)
