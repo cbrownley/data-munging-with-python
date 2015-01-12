@@ -79,4 +79,4 @@ for input_file in glob.glob(os.path.join(path_to_folder, '*.*')):
 				line_counter += 1
 print 'Number of files:', file_counter
 print 'Number of lines:', line_counter
-print 'Number of item numbers', count_of_item_numbers
+print 'Number of item numbers:', count_of_item_numbers
