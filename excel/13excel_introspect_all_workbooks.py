@@ -17,7 +17,7 @@ for input_file in glob.glob(os.path.join(input_directory, '*.xls*')):
 	print 'Workbook:',os.path.basename(input_file)
 	print 'Number of worksheets:',workbook.nsheets
 	for worksheet in workbook.sheets():
-		print "Worksheet name:",worksheet.name, "Rows:",worksheet.nrows, "Columns:",worksheet.ncols
+		print "Worksheet name:",worksheet.name, "\tRows:",worksheet.nrows, "\tColumns:",worksheet.ncols
 		#print worksheet.row_values(0)
 	print ""
 	workbook_counter += 1
