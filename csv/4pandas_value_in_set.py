@@ -1,4 +1,9 @@
 #!/usr/bin/python
+"""
+Copyright 2014 Clinton W. Brownley
+Available at https://github.com/cbrownley
+License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
+"""
 import pandas as pd
 import string
 import sys
